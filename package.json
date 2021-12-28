@@ -1,0 +1,35 @@
+{
+  "name": "approximate-dynamodb-count",
+  "version": "0.1.0",
+  "bin": {
+    "approximate-dynamodb-count": "bin/approximate-dynamodb-count.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assertions": "1.133.0",
+    "@aws-cdk/aws-dynamodb": "^1.133.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.133.0",
+    "@aws-cdk/aws-lambda-nodejs": "^1.133.0",
+    "@aws-cdk/aws-sqs": "^1.133.0",
+    "@types/aws-lambda": "^8.10.85",
+    "@types/chai": "^4.2.22",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "aws-cdk": "1.133.0",
+    "chai": "^4.3.4",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.133.0",
+    "aws-sdk": "^2.1033.0",
+    "source-map-support": "^0.5.16"
+  }
+}
