@@ -31,6 +31,10 @@ https://gitlab.aws.dev/guoneng/approximate-dynamodb-count
     export AWS_SESSION_TOKEN=SOMETOKEN
     ```
     Note that the access information needs to be bound to a user/role that has the access `CloudFormation` needs to create the resources.
+3. Install CDK dependencies
+```
+npm install
+```
 2. Bootstrap CDK
   ```bash
   cdk bootstrap
