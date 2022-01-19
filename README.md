@@ -15,7 +15,7 @@ This artifact is intended for infrastructure developers who wish to set up a sim
 
 ## Running the Sample Code
 ### Location
-https://gitlab.aws.dev/guoneng/approximate-dynamodb-count
+https://github.com/aws-samples/amazon-dynamodb-approximate-count
 ### Content
 1. CDK infrastructure code in TypeScript setting up the main DynamoDB table and the count table, along with the DynamoDB Stream and EventSource for Lambda.
 2. Lambda code in TypeScript to update the count.
